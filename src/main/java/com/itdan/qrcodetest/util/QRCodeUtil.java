@@ -74,7 +74,7 @@ public class QRCodeUtil {
 
 	//生成二维码测试
 	public static void main(String [] args) throws IOException {
-		String qrCode = QRCodeUtil.createQRCode("http://123.57.128.124/index.html#/?redirect=%2Fsys%2Fhr",
+		String qrCode = QRCodeUtil.createQRCode("http://localhost:8080/alipayTest",
 				200,
 				200);
 		System.out.println(qrCode);
